@@ -1,6 +1,6 @@
 # BioBERT Pre-trained Weights
 
-This repository provides pre-trained weights of BioBERT, a language representation model for biomedical domain, especially designed for biomedical text mining tasks such as biomedical named entity recognition, relation extraction, question answering, etc. Please refer to our paper [BioBERT: pre-trained biomedical language representation model for biomedical text mining](https://arxiv.org/abs/1901.08746) for more details.
+This repository provides pre-trained weights of BioBERT, a language representation model for biomedical domain, especially designed for biomedical text mining tasks such as biomedical named entity recognition, relation extraction, question answering, etc. Please refer to our paper [BioBERT: a pre-trained biomedical language representation model for biomedical text mining](https://arxiv.org/abs/1901.08746) for more details.
 
 ## Downloading pre-trained weights
 Go to [releases](https://github.com/naver/biobert-pretrained/releases) section of this repository, and download pre-trained weights of BioBERT. We provide three combinations of pre-trained BioBERT: BERT + PubMed, BERT + PMC, and BERT + PubMed + PMC. Pre-training was based on the [original BERT code](https://github.com/google-research/bert) provided by Google, and details are described in our paper.
@@ -20,7 +20,7 @@ To fine-tunine BioBERT on biomedical text mining tasks using provided pre-traine
 For now, cite [the Arxiv paper](https://arxiv.org/abs/1901.08746):
 ```
 @article{lee2019biobert,
-  title={BioBERT: pre-trained biomedical language representation model for biomedical text mining},
+  title={BioBERT: a pre-trained biomedical language representation model for biomedical text mining},
   author={Lee, Jinhyuk and Yoon, Wonjin and Kim, Sungdong and Kim, Donghyeon and Kim, Sunkyu and So, Chan Ho and Kang, Jaewoo},
   journal={arXiv preprint arXiv:1901.08746},
   year={2019}
