@@ -3,10 +3,13 @@
 This repository provides pre-trained weights of BioBERT, a language representation model for biomedical domain, especially designed for biomedical text mining tasks such as biomedical named entity recognition, relation extraction, question answering, etc. Please refer to our paper [BioBERT: a pre-trained biomedical language representation model for biomedical text mining](https://arxiv.org/abs/1901.08746) for more details.
 
 ## Downloading pre-trained weights
-Go to [releases](https://github.com/naver/biobert-pretrained/releases) section of this repository, and download pre-trained weights of BioBERT. We provide three combinations of pre-trained BioBERT: Wiki + Books + PubMed, Wiki + Books + PMC, and Wiki + Books + PubMed + PMC. Pre-training was based on the [original BERT code](https://github.com/google-research/bert) provided by Google, and details are described in our paper.
+Go to [releases](https://github.com/naver/biobert-pretrained/releases) section of this repository, and download pre-trained weights of BioBERT. We provide three combinations of pre-trained weights: BioBERT (+ PubMed), BioBERT (+ PMC), and BioBERT (+ PubMed + PMC). Pre-training was based on the [original BERT code](https://github.com/google-research/bert) provided by Google, and training details are described in our paper. Currently available versions of pre-trained weights are as follows:
 
-Note that as we are using WordPiece vocabulary (`vocab.txt`) provided by Google, any new words in biomedical corpus can be represented with subwords (for instance, Leukemia => Leu + ##ke + ##mia).
-Building a new subword vocabulary for BioBERT could lose compatibility with the original pre-trained BERT. More details are in the closed [issue #1](https://github.com/naver/biobert-pretrained/issues/1).
+* **BioBERT v1.0 (+ PubMed 200K)** - based on BERT-base (same vocabulary)
+* **BioBERT v1.0 (+ PMC 270K)** - based on BERT-base (same vocabulary)
+* **BioBERT v1.0 (+ PubMed 200K + PMC 270K)** - based on BERT-base (same vocabulary)
+
+Make sure to specify the versions of pre-trained weights used in your works. Note that as we are using WordPiece vocabulary (`vocab.txt`) provided by Google, any new words in biomedical corpus can be represented with subwords (for instance, Leukemia => Leu + ##ke + ##mia). Building a new subword vocabulary for BioBERT could lose compatibility with the original pre-trained BERT. More details are in the closed [issue #1](https://github.com/naver/biobert-pretrained/issues/1).
 
 ## Pre-training corpus
 We do not provide pre-processed version of each corpus. However, each pre-training corpus could be found in the following links:
