@@ -5,9 +5,9 @@ This repository provides pre-trained weights of BioBERT, a language representati
 ## Downloading pre-trained weights
 Go to [releases](https://github.com/naver/biobert-pretrained/releases) section of this repository, and download pre-trained weights of BioBERT. We provide three combinations of pre-trained weights: BioBERT (+ PubMed), BioBERT (+ PMC), and BioBERT (+ PubMed + PMC). Pre-training was based on the [original BERT code](https://github.com/google-research/bert) provided by Google, and training details are described in our paper. Currently available versions of pre-trained weights are as follows:
 
-* **BioBERT v1.0 (+ PubMed 200K)** - based on BERT-base (same vocabulary)
-* **BioBERT v1.0 (+ PMC 270K)** - based on BERT-base (same vocabulary)
-* **BioBERT v1.0 (+ PubMed 200K + PMC 270K)** - based on BERT-base (same vocabulary)
+* **BioBERT v1.0 (+ PubMed 200K)** - based on BERT-base-Cased (same vocabulary)
+* **BioBERT v1.0 (+ PMC 270K)** - based on BERT-base-Cased (same vocabulary)
+* **BioBERT v1.0 (+ PubMed 200K + PMC 270K)** - based on BERT-base-Cased (same vocabulary)
 
 Make sure to specify the versions of pre-trained weights used in your works. Note that as we are using WordPiece vocabulary (`vocab.txt`) provided by Google, any new words in biomedical corpus can be represented with subwords (for instance, Leukemia => Leu + ##ke + ##mia). Building a new subword vocabulary for BioBERT could lose compatibility with the original pre-trained BERT. More details are in the closed [issue #1](https://github.com/naver/biobert-pretrained/issues/1).
 
