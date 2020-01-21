@@ -15,7 +15,7 @@ Pre-training was based on the [original BERT code](https://github.com/google-res
 * **[BioBERT-Base v1.0 (+ PubMed 200K + PMC 270K)](https://drive.google.com/file/d/1jGUu2dWB1RaeXmezeJmdiPKQp3ZCmNb7/view?usp=sharing)** - based on BERT-base-Cased (same vocabulary)
 
 Make sure to specify the versions of pre-trained weights used in your works.
-If you have difficulty choosing which one to use, we recommend using **BioBERT v1.1 (+ PubMed 1M)**.
+If you have difficulty choosing which one to use, we recommend using **BioBERT-Base v1.1 (+ PubMed 1M)** or **BioBERT-Large v1.1 (+ PubMed 1M)**. 
 Note that for BioBERT-Base, we are using WordPiece vocabulary (`vocab.txt`) provided by Google as any new words in biomedical corpus can be represented with subwords (for instance, Leukemia => Leu + ##ke + ##mia).
 More details are in the closed [issue #1](https://github.com/naver/biobert-pretrained/issues/1).
 
