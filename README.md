@@ -3,7 +3,7 @@
 This repository provides pre-trained weights of BioBERT, a language representation model for biomedical domain, especially designed for biomedical text mining tasks such as biomedical named entity recognition, relation extraction, question answering, etc.
 Please refer to our paper [BioBERT: a pre-trained biomedical language representation model for biomedical text mining](https://arxiv.org/abs/1901.08746) for more details.
 
-## Downloading pre-trained weights
+## Downloading Pre-trained weights
 Go to [releases](https://github.com/naver/biobert-pretrained/releases) section of this repository or click links below to download pre-trained weights of BioBERT.
 We provide three combinations of pre-trained weights: BioBERT (+ PubMed), BioBERT (+ PMC), and BioBERT (+ PubMed + PMC).
 Pre-training was based on the [original BERT code](https://github.com/google-research/bert) provided by Google, and training details are described in our paper. Currently available versions of pre-trained weights are as follows:
@@ -28,7 +28,7 @@ We do not provide pre-processed version of each corpus. However, each pre-traini
 Estimated size of each corpus is 4.5 billion words for **`PubMed Abstracts1`** + **`PubMed Abstracts2`**, and 13.5 billion words for **`PubMed Central Full Texts`**.
 
 ## Fine-tuning BioBERT
-To fine-tunine BioBERT on biomedical text mining tasks using provided pre-trained weights, refer to the [DMIS GitHub repository for BioBERT](https://github.com/dmis-lab/biobert).
+To fine-tune BioBERT on biomedical text mining tasks using provided pre-trained weights, refer to the [DMIS GitHub repository for BioBERT](https://github.com/dmis-lab/biobert).
 
 ## Citation
 ```
